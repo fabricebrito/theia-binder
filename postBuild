@@ -12,7 +12,7 @@ nvm install 12
 
 cd theia
 
-npm install yarn
+npm --scripts-prepend-node-path /home/jovyan/.nvm/versions/node/v12.22.7/bin/node install yarn
 
 npx yarn --cache-folder ./ycache && rm -rf ./ycache
 export NODE_OPTIONS="--max_old_space_size=4096"
