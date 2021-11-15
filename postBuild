@@ -13,6 +13,7 @@ cd theia
 nvm install 12
 source ${HOME}/.bashrc
 npm install -g yarn
+npm install -g keytar
 source ${HOME}/.bashrc
 
 #npm --scripts-prepend-node-path /home/jovyan/.nvm/versions/node/v12.22.7/bin/node install yarn
