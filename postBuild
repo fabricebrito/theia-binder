@@ -3,7 +3,8 @@
 pip install jupyter-server-proxy
 
 #jupyter serverextension enable --sys-prefix --py jupyter_server_proxy
-
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
+source ~/.profile   
 nvm install 12
 
 cd theia
