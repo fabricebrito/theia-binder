@@ -1,7 +1,8 @@
 #!/bin/bash
 
-pip install https://github.com/jupyterhub/jupyter-server-proxy/archive/master.zip
-jupyter serverextension enable --sys-prefix --py jupyter_server_proxy
+pip install jupyter-server-proxy
+
+#jupyter serverextension enable --sys-prefix --py jupyter_server_proxy
 
 
 cd theia
