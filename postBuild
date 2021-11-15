@@ -9,7 +9,9 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
 nvm install 12
-
+source ${HOME}/.bashrc
+npm install -g yarn
+source ${HOME}/.bashrc
 cd theia
 
 npm --scripts-prepend-node-path /home/jovyan/.nvm/versions/node/v12.22.7/bin/node install yarn
