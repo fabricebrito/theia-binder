@@ -5,7 +5,8 @@ pip install jupyter-server-proxy
 #jupyter serverextension enable --sys-prefix --py jupyter_server_proxy
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
 source ~/.profile
-which nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
 nvm install 12
 
