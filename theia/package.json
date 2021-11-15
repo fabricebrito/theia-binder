@@ -48,11 +48,7 @@
         "@theia/vsx-registry": "latest",
         "@theia/workspace": "latest"
     },
-    "resolutions": {
-        "vscode-json-languageserver": "1.2.2",
-        "**/vscode-json-languageserver/**/vscode-languageserver": "6.0.0-next.1",
-        "**/moment": "2.24.0"
-    },
+    "resolutions": {},
     "devDependencies": {
         "@theia/cli": "latest"
     },
