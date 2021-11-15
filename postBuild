@@ -4,6 +4,7 @@ pip install jupyter-server-proxy
 
 #jupyter serverextension enable --sys-prefix --py jupyter_server_proxy
 
+nvm install 12
 
 cd theia
 
